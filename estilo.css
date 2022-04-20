@@ -1,30 +1,57 @@
 
 
-header { }
 
 
-div {position: absolute;
-    width: 697px;
-    height: 49px;
-    
+
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.wrapper-3{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.primeiroBloco{
+    display:flex;
+    width: 100%;
+}
+
+.imgNav{
+    float:rigth;
+}
+.navbar{
+    width: 100%;
+    height: 60px;    
     background: #FFFFFF;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);}
- 
+    position:absolute;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.25);
+}
+.titleNav{
+    margin: 10px 5px 10px 10px;
+    display:block;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32px;
+    color:#777777;
+    font-style: Ropa Sans;
     
+}
+.subTitleNav{
+    font-size: 10px;
+    line-height: 11px;
+    display:block;
+    color:#aaaaaa;
+    margin: auto 0;
+
+}
+
+ body{
+     margin: 0
+ }
     
-    div {@font-face 
-        font-family: 'Ropa Sans', sans-serif;
-        src: url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
-        
-        position: absolute;
-        width: 63px;
-        height: 25px;
-        font-family: 'Ropa Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 32px;
-        color: #777777;}
+
      
 
     
