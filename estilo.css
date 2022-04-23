@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    @font-face {
+        font-family: 'Ropa Sans';
+        src: url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+    }
 }
-.img{
+
+.img {
     margin: 0;
 }
 
@@ -72,13 +78,16 @@ section.card {
     width: 40%;
 
 }
-.subCaixa img{
+
+.subCaixa img {
     width: 100%;
 }
 
 .textoCaixa {
     background-color: #EEEEEE;
     width: 100%;
+    font-size: 19px;
+    text-align: justify;
 
 }
 
@@ -86,13 +95,15 @@ section.card {
     color: #888;
     font-size: 25px;
     margin-left: 6px;
+    text-align: justify;
 }
 
-.texto2 {
+.texto2 {}
 
-}
-.texto3{
+.texto3 {
     padding: 12px;
+    text-align: justify;
+
 
 }
 
@@ -100,3 +111,22 @@ section.card {
     display: inline-flex;
     width: 100%;
 }
+
+.style {
+    text-align: center;
+    color: #888888;
+    font-size: 25px;
+    margin-top: 45px;
+    margin-bottom: 13px;
+
+
+}
+
+#industrial{
+    background-image: url(/Rectangle\ 11.png);
+    opacity: 75%;
+    
+
+}
+
+
